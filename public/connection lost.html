@@ -86,7 +86,6 @@
         var right = -20; // Start off-screen
         star.style.top = top + "px";
         star.style.right = right + "px";
-        
         // Add the star to the array
         stars.push({ element: star, right: right });
     }
@@ -106,7 +105,7 @@
     
     // Create stars at intervals
     setInterval(createStar, 100);
-    
+
     // Start updating stars
     updateStars();
 });
